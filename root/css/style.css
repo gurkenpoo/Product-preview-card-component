@@ -63,6 +63,8 @@ main {
     color: hsl(228, 12%, 48%);
 }
 /*--------BUTTON STYLE-------*/
+
+
 .linkBoton {
     text-decoration: none;
 }
@@ -84,6 +86,7 @@ main {
     font-family: 'Montserrat', sans-serif;
 }
 
+
 /*-----FOOTER------*/
 .attribution { 
     margin-top: 50px;
@@ -92,13 +95,38 @@ main {
 .attribution a {
      color: hsl(228, 45%, 44%); 
     }
+
+
 /*------PSEUDO SELECTOR----*/
 .boton:hover{
     background-color: #2f5c30;
     cursor: pointer;
+    transform: scale(1.1);
+
 }
+
 /*----MEDIA QUERY---*/
 
 @media screen and (max-width: 375px){
-
+    .card {
+        width: 350px;
+        height: 670px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logoDesktop {
+        display: none;
+    }
+    .logoMobile {
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+        display: block;
+    }
+    .textCard {
+        gap: 10px;
+        width: 100%;
+    }
+    .boton:hover {
+        transform: scale(1);
+    }
 }
