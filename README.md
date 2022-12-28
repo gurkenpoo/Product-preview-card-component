@@ -2,8 +2,8 @@
 
 ## Desktop version (1440px)
 
-![desktop](./root/images/05desktopready.jpg)
+![desktop](./root/images/desktopReady.jpg)
 
 ## Mobile version (375px)
 
-![mobile](./root/images/05mobileready.jpg)
+![mobile](./root/images/mobileReady.jpg)
